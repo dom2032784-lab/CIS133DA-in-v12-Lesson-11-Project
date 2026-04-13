@@ -3,14 +3,14 @@
 <head>
     <!--
         Course: CIS133DA
-        Section: #
-        Lesson: 
+        Section: 17925
+        Lesson: 11
     -->
-    <title>Template</title>
+    <title>Schedule Appointment</title>
     <meta charset="UTF-8">
-    <meta name="author" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="author" content="Dominic Romero">
+    <meta name="description" content="Schedule an appointment with Computer Systems Inc. using our project request form. View pricing and submit service requests for home or business technology support needs.">
+    <meta name="keywords" content=" computer repair, IT services, data recovery, appointment, tech support">
     <link rel="stylesheet" href="css/default_style.css">
 </head>
 <body>
@@ -97,13 +97,23 @@
                 <label for="comments">Additional Comments:</label>
                 <textarea id="comments"></textarea>
                 <br>
-                <button type="reset">Reset form</button>
-                <button type="submit">Submit form</button>
+                <button type="reset" onclick="formReset()">Reset form</button>
+                <button type="submit" onclick="formSubmit()">Submit form</button>
             </form>
+
+            <!-- Reset Message Element --> 
+            <p id="resetMessage">This form has been reset.</p>
+
         </main>
         <footer>
-            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by MEID &copy; 2023</small></p>
+            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by DOM2032784 &copy; 2026</small>
+            <br>
+            Last Modified - <span id="lastModified"></span>
+          </p>
         </footer>
     </div>
+
+    <!-- External JavaScript file -->
+    <script src="scripts/javascript.js"></script>
 </body>
 </html>

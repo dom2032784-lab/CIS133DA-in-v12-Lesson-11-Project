@@ -1,7 +1,7 @@
 /*
-    Author: 
-    Course: 
-    Lesson: 
+    Author: Dominic Romero
+    Course: CIS133DA
+    Lesson: 11
 */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +64,7 @@ nav .right {
 
 nav .active {
     background-color: #135367;
-    color: #000000
+    color: #000000;
 }
 
 nav {
@@ -139,6 +139,13 @@ button {
 button:hover {
     background: #135367;
     color: white;
+}
+
+/* Reset Message Styling */
+#resetMessage {
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
 }
 
 /* Footer Styles */
